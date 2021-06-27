@@ -18,7 +18,7 @@ class Milk{
     }
     display(){
        
-     var h=30*width/1366
+     var h=30*width/1366 + 20
      var w=height/3-10   
        
             this.r= image(milkPng,h,w,150*width/1366,150*width/1366)
