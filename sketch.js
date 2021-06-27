@@ -17,7 +17,7 @@ function preload(){
     bedPng=loadImage("Bed Room.png")
     lazyPng=loadImage("Lazy.png")
     lRoomPng=loadImage("Living Room.png")
-    rRpng=loadImage("running.png")
+    rRpng=loadImage("running.png");
     rLpng=loadImage("runningLeft.png")
     wRoomPng=loadImage("Wash Room.png")
 }
