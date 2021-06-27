@@ -33,8 +33,12 @@ class Milk{
         
       this.feed.position(width*2/4,height*3/4+100*height/678);
       this.feed.size(100*width/1366,50*height/678)
+         this.feed.style("font-size", "38px");
+       this.feed.style("font-family", "Pristina");
       this.feed1.position(width*1/4,height*3/4+100*height/678);
       this.feed1.size(100*width/1366,50*height/678)
+       this.feed1.style("font-size", "38px");
+       this.feed1.style("font-family", "Pristina");
      // this.feed1.color(0)
       this.feed.mousePressed(()=>{
         if(gameState===1 && foodNo!=0 ){
