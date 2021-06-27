@@ -25,7 +25,7 @@ class Milk{
             push();
             textSize(100)
             fill("blue")
-            text(": "+foodNo,h+100,w+70);
+            text(": "+foodNo,h+95,w+100);
             textSize(50)
            // text(" remaining",h+100,width+70)
             pop();  
