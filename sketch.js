@@ -42,7 +42,7 @@ function draw(){
         milk1.display();
         textSize(20*width/1366)
         fill("blue")
-      text("NOTE :- You can only feed once in an minute",55*width/1266,148*height/678) 
+      text("NOTE :- You can only feed after your pet wakes up",55*width/1266,148*height/678) 
       text("Food only gets refill only when food is less than 10",130*width/1266,178*height/678) 
        lastHrRef=database.ref('time/hour');
         lastHrRef.on("value",(data)=>{
