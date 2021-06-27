@@ -23,7 +23,7 @@ class Milk{
        
             this.r= image(milkPng,h,w,150*width/1366,150*width/1366)
             push();
-            textSize(100)
+            textSize(100*width/1366)
             fill("blue")
             text("   :"+foodNo,h+155,w+100);
             textSize(50)
